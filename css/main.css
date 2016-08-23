@@ -157,7 +157,16 @@ nav a:hover {
 
 
 
+/**************NAVBAR*****************/
 
+.navbar-light {
+    display:block;
+    background-color: #152451 ;
+}
+
+.nav_grande {
+    display:none;
+}
 
 
 
@@ -259,5 +268,3 @@ nav a:hover {
         margin: 0 auto;
     }
 }
-
-
