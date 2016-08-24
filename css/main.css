@@ -89,38 +89,6 @@ body {
 }
 
 /* ==============
-    MOBILE: Menu
-   ============== */
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* ==============
     MOBILE: Main
    ============== */
 
@@ -159,20 +127,85 @@ nav a:hover {
 
 /**************NAVBAR*****************/
 
+nav {
+    color: #f4f4f4;
+}
+
+nav li a{
+    color: #f4f4f4;
+    font-family: 'Fredoka One', cursive;
+}
+
+
 .navbar-light {
     display:block;
-    background-color: #152451 ;
+    background-color: #735749 ;
+    width:100%;
+    z-index: 100;
+}
+
+.navbar-light ul{
+    font-size: 2em;
+    text-align: center;
+}
+
+.navbar-light ul a{
+    margin:10px;
 }
 
 .nav_grande {
+    text-align: right;
+    padding:15px 25px;
+    background-color: #735749 ;
+    height:60px;
     display:none;
+    width:100%;
+    z-index: 100;
+}
+
+.nav_grande ul a{
+    margin-left:5px;
+    font-size: 1.0em;
+}
+
+
+/***************HEADER*******************/
+
+header{
+    background-image: url(../img/P1050372.JPG);
+    background-size:cover;
+    height:600px;
+}
+
+#logos {
+    height:300px;
+    background-color: rgba(80, 57, 53, 0.6);
+    width:100%;
+}
+
+/*RAISEAU SOCIAUX*/
+
+.sociaux_haut{
+    display:none;
+    position:relative;
+    float: right;
+    top:30px;
+    right:40px;
+}
+
+.sociaux_haut a{
+    color:#f4f4f4;
+    margin:15px;
 }
 
 
 
+/***************FOOTER*******************/
 
 
-
+footer{
+    background-color: rgba(210, 180, 180, 0.5);
+}
 
 
 
@@ -186,34 +219,18 @@ nav a:hover {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
+    .navbar-light{
+        display:none;
     }
 
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
+    .nav_grande {
+        display:block;
     }
 
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -255,7 +272,15 @@ nav a:hover {
         float: right;
         width: 28%;
     }
+
+    .sociaux_haut{
+        display:block;
+    }
+    
 }
+
+
+
 
 @media only screen and (min-width: 1140px) {
 
@@ -266,5 +291,17 @@ nav a:hover {
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
+    }
+
+    /***************HEADER****************/
+
+    /*NAVBAR*/
+    .nav_grande{
+
+    }
+
+    .nav_grande ul a{
+        margin-left:40px;
+        font-size: 1.3em;
     }
 }
