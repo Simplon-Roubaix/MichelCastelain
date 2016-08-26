@@ -35,7 +35,7 @@ nav li a{
 
 .nav_grande {
     text-align: center;
-    padding:15px 25px;
+    padding:15px 20px;
     background-color: #735749 ;
     height:60px;
     display:none;
@@ -56,7 +56,7 @@ nav li a{
 /***************HEADER*******************/
 
 header{
-    background-image: url(../img/P1050381.JPG);
+    background-image: url(../img/P1050372.JPG);
     background-size:cover;
     height:600px;
 }
@@ -123,8 +123,15 @@ footer{
     justify-content: space-around;
 }
 
+.sociaux_bas i{
+    color: #735749;
+}
+
 footer h3{
+    padding:10px 0;
+    margin:0 0 20px;
     border-bottom: 3px solid;
+    width:300px;
 }
 
 aside {
@@ -208,6 +215,9 @@ aside {
 
     .nav_grande{
         text-align: right;
+        margin-left:20px;
+        font-size: 1.3em;
+
     }
 
     .articles_footer{
@@ -218,6 +228,24 @@ aside {
     .article_footer_apropos p{
         margin:40px 0;
     }
+
+    .article_footer_contact{
+        width:30%;
+    }
+
+    .article_footer_apropos{
+        width:30%;
+    }
+
+    .article_footer_prendrecontact{
+        width:30%;
+    }
+
+    footer h3 {
+        padding:10px 0;
+        width:100%;
+    }
+
 }
 
 
@@ -250,4 +278,6 @@ aside {
     .articles_footer{
         margin:0 10%
     }
+
+
 }
