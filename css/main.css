@@ -125,91 +125,6 @@ body {
 
 
 
-/**************NAVBAR*****************/
-
-nav {
-    color: #f4f4f4;
-}
-
-nav li a{
-    color: #f4f4f4;
-    font-family: 'Fredoka One', cursive;
-}
-
-
-.navbar-light {
-    display:block;
-    background-color: #735749 ;
-    width:100%;
-    z-index: 100;
-}
-
-.navbar-light ul{
-    font-size: 2em;
-    text-align: center;
-}
-
-.navbar-light ul a{
-    margin:10px;
-}
-
-.nav_grande {
-    text-align: right;
-    padding:15px 25px;
-    background-color: #735749 ;
-    height:60px;
-    display:none;
-    width:100%;
-    z-index: 100;
-}
-
-.nav_grande ul a{
-    margin-left:5px;
-    font-size: 1.0em;
-}
-
-
-/***************HEADER*******************/
-
-header{
-    background-image: url(../img/P1050372.JPG);
-    background-size:cover;
-    height:600px;
-}
-
-#logos {
-    height:300px;
-    background-color: rgba(80, 57, 53, 0.6);
-    width:100%;
-}
-
-/*RAISEAU SOCIAUX*/
-
-.sociaux_haut{
-    display:none;
-    position:relative;
-    float: right;
-    top:30px;
-    right:40px;
-}
-
-.sociaux_haut a{
-    color:#f4f4f4;
-    margin:15px;
-}
-
-
-
-/***************FOOTER*******************/
-
-
-footer{
-    background-color: rgba(210, 180, 180, 0.5);
-}
-
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -219,13 +134,7 @@ footer{
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-    .navbar-light{
-        display:none;
-    }
 
-    .nav_grande {
-        display:block;
-    }
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -250,33 +159,12 @@ footer{
     WIDE: Menu
    ============ */
 
-    .title {
-        float: left;
-    }
 
-    nav {
-        float: right;
-        width: 38%;
-    }
 
 /* ============
     WIDE: Main
    ============ */
 
-    .main article {
-        float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
-
-    .sociaux_haut{
-        display:block;
-    }
-    
 }
 
 
@@ -293,15 +181,5 @@ footer{
         margin: 0 auto;
     }
 
-    /***************HEADER****************/
-
-    /*NAVBAR*/
-    .nav_grande{
-
-    }
-
-    .nav_grande ul a{
-        margin-left:40px;
-        font-size: 1.3em;
-    }
+    
 }
