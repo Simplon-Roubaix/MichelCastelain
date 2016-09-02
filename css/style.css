@@ -1,9 +1,7 @@
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
+body{
+    background-color: #f4f4f4;
+    color:#735749;
+}
 
 /**************NAVBAR*****************/
 
@@ -83,11 +81,48 @@ header{
     margin:15px;
 }
 
-/************CORPS_DE_TEXTE**************/
+/**********************************************
+                  CORPS_DE_TEXTE
+***********************************************/
+.container{
+    
+}
+/*****************************************
+                PAGE ACCEUIL
+******************************************/
+
+
+.journal {
+    margin:100px 20px;
+}
+
+.journal .titre_section{
+    font-size: 40px;
+    margin: 8px 0;
+    padding:0 0 10px;
+    border-bottom: 3px solid #735749;
+
+}
+
+.journal .date_du_post{
+    display:flex;
+    justify-content: space-between;
+}
+
+.journal figure {
+    margin: 20px auto;
+    width:450px;
+    height:320px;
+    background-image: url(../img/P1050380.JPG);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
-/***************FOOTER*******************/
+/**********************************************
+                     FOOTER
+**********************************************/
 
 
 footer{
@@ -124,8 +159,14 @@ footer{
     justify-content: space-around;
 }
 
+.sociaux_bas{
+    margin-left: -20px;
+}
+
 .sociaux_bas i{
     color: #735749;
+    padding: 0 0 0 10px;
+
 }
 
 footer h3{
@@ -176,12 +217,6 @@ aside {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
 
 /* ============
     WIDE: Menu
@@ -225,6 +260,22 @@ aside {
         font-size: 1.3em;
 
     }
+
+
+    .journal_corps{
+        display: flex;
+    }
+
+    .journal figure{
+        width:50%;
+    }
+
+    .journal_corps article{
+        padding:20px;
+        width:50%;
+    }
+
+
 
     .articles_footer{
         display:flex;
