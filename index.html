@@ -34,62 +34,122 @@
 </head>
 
 <body>
-  <header></header>
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12">
-              <div class="well well-sm">
-                  <form class="form-horizontal" method="post">
-                      <fieldset>
-                          <legend class="text-center header">Contact us</legend>
+  <!--////////HEADER///////-->
 
-                          <div class="form-group">
-                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                              <div class="col-md-8">
-                                  <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-                              </div>
-                          </div>
-                          <div class="form-group">
-                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                              <div class="col-md-8">
-                                  <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-                              </div>
-                          </div>
+              <!-- nav bar caché -->
+                <nav class="navbar navbar-light">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#exCollapsingNavbar"
+                    aria-controls="exCollapsingNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation" style="color:white;font-size:25px;">
+                    &#9776;
+                  </button>
 
-                          <div class="form-group">
-                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                              <div class="col-md-8">
-                                  <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-                              </div>
-                          </div>
+                    <div class="collapse" id="exCollapsingNavbar">
+                      <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Vente.html">Gallerie</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Location.html">Atelier</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="inscription.html">Inscription</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
 
-                          <div class="form-group">
-                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                              <div class="col-md-8">
-                                  <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-                              </div>
-                          </div>
+                  </nav>
 
-                          <div class="form-group">
-                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                              <div class="col-md-8">
-                                  <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
-                              </div>
-                          </div>
+          <!-- nav bar grande -->
+                  <nav class="nav_grande">
+                    <ul class="nav nav-inline">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Acceuil</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Vente.html">Gallerie</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Vente.html">Atelier</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="inscription.html">Inscription</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
 
-                          <div class="form-group">
-                              <div class="col-md-12 text-center">
-                                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                              </div>
-                          </div>
-                      </fieldset>
-                  </form>
-              </div>
-          </div>
-      </div>
-  </div>
 
-<footer></footer>
+  <!-- Titre et fond alpha -->
+
+          <header>
+                  <div id="logos">
+
+                      <div class="sociaux_haut">
+                         <a href=https://www.skype.com/en/><i class="fa fa-skype fa-2x" aria-hidden="true"></i></a>
+                         <a href=https://plus.google.com/collections/featured><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a>
+                         <a href=https://www.facebook.com/><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                         <a href=https://www.youtube.com/><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                         <a href=https://twitter.com/><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                       </div>
+
+                  </div>
+
+          </header>
+
+
+          <footer>
+              <section class=articles_footer>
+                  <article class="article article_footer_contact">
+                      <h3>ADRESSE</h3>
+                      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:100%;margin:auto;'><div id='gmap_canvas' style='height:400px;width:400px;'></div><div><small><a href="http://www.embedgooglemaps.com">Generate your Google map here, quick and easy!</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">Find all web directories here!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(50.67333347145965,3.191775115344191),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.67333347145965,3.191775115344191)});infowindow = new google.maps.InfoWindow({content:'<strong>Michael </strong><br>94 Rue Leon MARLOT, ROUBAIX, France<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                      <aside>
+                          94 Rue Léon MARLOT<br>
+                          ROUBAIX<br>
+                          59100<br>
+                      </aside>
+                  </article>
+
+                  <article class="article article_footer_apropos">
+                      <h3>À PROPOS</h3>
+                      <p>Lorem Ipsum, je laisse le soin à notre rédactrice de bosser sur les textes.<br>
+                      dlkhsd hklaiiiod jklllakjd kk jjl k lllakjdkjsl j  lkjlakjkjldj.fkjl kljlkjdsmkhkmziuejjdkkeo lppodop llkeo opplxk oope lmoopellk leosp pokd<br>
+                  ,kldlkjfmldlms;e;:dlkcl  ldmlskmlekùpkjfdljffdllks mlzkooialks</p>
+                  </article>
+
+                  <article class="article article_footer_prendrecontact">
+                      <h3>CONTACT</h3>
+                      <div class="sociaux_bas">
+                         <a href=https://www.skype.com/en/><i class="fa fa-skype fa-3x" aria-hidden="true"></i></a>
+                         <a href=https://plus.google.com/collections/featured><i class="fa fa-google-plus-official fa-3x" aria-hidden="true"></i></a>
+                         <a href=https://www.facebook.com/><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                         <a href=https://www.youtube.com/><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
+                         <a href=https://twitter.com/><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+                       </div>
+                  </article>
+
+              </section>
+
+
+                   <aside class="copyright">
+                     <p><i class="fa fa-copyright" aria-hidden="true"></i> Jean-Baptiste Hinnebo</p>
+                   </aside>
+
+              </footer>
+
 
 
 
