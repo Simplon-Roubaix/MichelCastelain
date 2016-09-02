@@ -7,6 +7,13 @@
 
 /**************NAVBAR*****************/
 
+body{
+    background-color: #f4f4f4;
+    color:#735749;
+}
+
+/**************NAVBAR*****************/
+
 nav {
     color: #f4f4f4;
 }
@@ -16,26 +23,25 @@ nav li a{
     font-family: 'Fredoka One', cursive;
 }
 
-
-.navbar-light {
+.navbar-css {
     display:block;
     background-color: #735749 ;
     width:100%;
     z-index: 100;
 }
 
-.navbar-light ul{
+.navbar-css ul{
     font-size: 2em;
     text-align: center;
 }
 
-.navbar-light ul a{
+.navbar-css ul a{
     margin:10px;
 }
 
 .nav_grande {
     text-align: center;
-    padding:15px 25px;
+    padding:15px 20px;
     background-color: #735749 ;
     height:60px;
     display:none;
@@ -48,17 +54,19 @@ nav li a{
     font-size: 1.0em;
 }
 
-.article{
 
+.nav-sticky {
+    position: fixed;
 }
 
 
 /***************HEADER*******************/
 
 header{
-    background-image: url(../img/P1050381.JPG);
+    background-image: url(../img/P1050372.JPG);
     background-size:cover;
-    height:600px;
+    background-position: center;
+    height:540px;
 }
 
 #logos {
@@ -73,7 +81,7 @@ header{
     display:none;
     position:relative;
     float: right;
-    top:30px;
+    top:90px;
     right:40px;
 }
 
@@ -82,11 +90,50 @@ header{
     margin:15px;
 }
 
-/************CORPS_DE_TEXTE**************/
+
+/**********************************************
+                  CORPS_DE_TEXTE
+***********************************************/
+.container{
+ padding:0 30px;
+}
+/*****************************************
+                PAGE ACCEUIL
+******************************************/
+
+
+.journal {
+    margin:100px 20px;
+}
+
+.journal .titre_section{
+    font-size: 40px;
+    margin: 8px 0;
+    padding:0 0 10px;
+    border-bottom: 3px solid #735749;
+
+}
+
+.journal .date_du_post{
+    display:flex;
+    justify-content: space-between;
+}
+
+.journal figure {
+    margin: 20px auto;
+    width:450px;
+    height:320px;
+    background-image: url(../img/P1050380.JPG);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
-/***************FOOTER*******************/
+/**********************************************
+                     FOOTER
+**********************************************/
+
 
 
 footer{
@@ -123,8 +170,20 @@ footer{
     justify-content: space-around;
 }
 
+.sociaux_bas{
+    margin-left: -20px;
+}
+
+.sociaux_bas i{
+    color: #735749;
+    padding: 0 0 0 10px;
+}
+
 footer h3{
+    padding:10px 0;
+    margin:0 0 20px;
     border-bottom: 3px solid;
+    width:300px;
 }
 
 aside {
@@ -145,7 +204,8 @@ aside {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-    .navbar-light{
+
+    .navbar-css{
         display:none;
     }
 
@@ -168,12 +228,6 @@ aside {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
 
 /* ============
     WIDE: Menu
@@ -202,13 +256,33 @@ aside {
         width: 28%;
     }
 
+
     .sociaux_haut{
         display:block;
     }
 
     .nav_grande{
         text-align: right;
+        font-size: 1.3em;
+
     }
+
+/*journal*/
+
+    .journal_corps{
+        display: flex;
+    }
+
+    .journal figure{
+        width:50%;
+    }
+
+    .journal_corps article{
+        padding:20px;
+        width:50%;
+    }
+
+/*********FOOTER*********/
 
     .articles_footer{
         display:flex;
@@ -218,6 +292,24 @@ aside {
     .article_footer_apropos p{
         margin:40px 0;
     }
+
+    .article_footer_contact{
+        width:30%;
+    }
+
+    .article_footer_apropos{
+        width:30%;
+    }
+
+    .article_footer_prendrecontact{
+        width:30%;
+    }
+
+    footer h3 {
+        padding:10px 0;
+        width:100%;
+    }
+
 }
 
 
@@ -237,13 +329,6 @@ aside {
     /***************HEADER****************/
 
     /*NAVBAR*/
-    .nav_grande{
-    }
-
-    .nav_grande ul a{
-        margin-left:40px;
-        font-size: 1.3em;
-    }
 
 
 
