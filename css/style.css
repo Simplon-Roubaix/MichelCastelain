@@ -1,0 +1,358 @@
+
+
+
+
+
+
+/**************NAVBAR*****************/
+
+body{
+    background-color: #f4f4f4;
+    color:#735749;
+}
+
+/**************NAVBAR*****************/
+
+nav {
+    color: #f4f4f4;
+}
+
+nav li a{
+    color: #f4f4f4;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar-css {
+    display:block;
+    background-color: #735749 ;
+    width:100%;
+    z-index: 100;
+}
+
+.navbar-css ul{
+    font-size: 2em;
+    text-align: center;
+}
+
+.navbar-css ul a{
+    margin:10px;
+}
+
+.nav_grande {
+    text-align: center;
+    padding:15px 20px;
+    background-color: #735749 ;
+    height:60px;
+    display:none;
+    width:100%;
+    z-index: 100;
+}
+
+.nav_grande ul a{
+    margin-left:5px;
+    font-size: 1.0em;
+}
+
+
+.nav-sticky {
+    position: fixed;
+}
+
+
+/***************HEADER*******************/
+
+header{
+    background-image: url(../img/P1050372.JPG);
+    background-size:cover;
+    background-position: center;
+    height:540px;
+}
+
+#logos {
+    height:300px;
+    background-color: rgba(80, 57, 53, 0.4);
+    width:100%;
+}
+
+/*RAISEAU SOCIAUX*/
+
+.sociaux_haut{
+    display:none;
+    position:relative;
+    float: right;
+    top:90px;
+    right:40px;
+}
+
+.sociaux_haut a{
+    color:#f4f4f4;
+    margin:15px;
+}
+
+
+/**********************************************
+                  CORPS_DE_TEXTE
+***********************************************/
+.container{
+ padding:0 30px;
+}
+
+/*==========================================================================
+INSCRIPTION'S  page for michelcarton's website
+========================================================================== */
+
+
+.legeng {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.row {
+
+  width: 100%;
+  height:100%;
+}
+
+/*****************************************
+                PAGE ACCEUIL
+******************************************/
+
+
+.journal {
+    margin:100px 20px;
+}
+
+.journal .titre_section{
+    font-size: 40px;
+    margin: 8px 0;
+    padding:0 0 10px;
+    border-bottom: 3px solid #735749;
+
+}
+
+.journal .date_du_post{
+    display:flex;
+    justify-content: space-between;
+}
+
+.journal figure {
+    margin: 20px auto;
+    width:450px;
+    height:320px;
+    background-image: url(../img/P1050380.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/**********************************************
+                     FOOTER
+**********************************************/
+
+
+
+footer{
+    background-color: rgba(210, 180, 180, 0.5);
+    padding:20px;
+    bottom:1.5em;
+    width:100%;
+    color:#735749;
+}
+
+.article_footer_contact{
+    margin:30px 5%;
+    width:90%;
+}
+
+.article_footer_apropos{
+    margin:30px 5%;
+    width:90%;
+}
+
+.article_footer_apropos p{
+    margin:30px 20px;
+}
+
+.article_footer_prendrecontact{
+    margin:40px 5% 90px;
+    width:90%;
+}
+
+.sociaux_bas{
+    margin:40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sociaux_bas{
+    margin-left: -20px;
+}
+
+.sociaux_bas i{
+    color: #735749;
+    padding: 0 0 0 10px;
+}
+
+footer h3{
+    padding:10px 0;
+    margin:0 0 20px;
+    border-bottom: 3px solid;
+    width:300px;
+}
+
+aside {
+    text-align: center;
+    bottom:0;
+}
+
+.article_footer_contact aside{
+    text-align: left;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    .navbar-css{
+        display:none;
+    }
+
+    .nav_grande {
+        display:block;
+
+    }
+
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+
+
+    .sociaux_haut{
+        display:block;
+    }
+
+    .nav_grande{
+        text-align: right;
+        font-size: 1.3em;
+
+    }
+
+/*journal*/
+
+    .journal_corps{
+        display: flex;
+    }
+
+    .journal figure{
+        width:50%;
+    }
+
+    .journal_corps article{
+        padding:20px;
+        width:50%;
+    }
+
+/*********FOOTER*********/
+
+    .articles_footer{
+        display:flex;
+        margin:0 10%;
+    }
+
+    .article_footer_apropos p{
+        margin:40px 0;
+    }
+
+    .article_footer_contact{
+        width:30%;
+    }
+
+    .article_footer_apropos{
+        width:30%;
+    }
+
+    .article_footer_prendrecontact{
+        width:30%;
+    }
+
+    footer h3 {
+        padding:10px 0;
+        width:100%;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+    /***************HEADER****************/
+
+    /*NAVBAR*/
+
+
+
+    .articles_footer{
+        margin:0 10%
+    }
+}

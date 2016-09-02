@@ -11,8 +11,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="apple-touch-icon" href="apple-touch-icon.png">
       <link rel="icon" href="favicon.ico">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-      <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <script src="https://use.fontawesome.com/d05e79cef4.js"></script>
 
 
@@ -37,12 +36,12 @@
 
     <body>
 
-<!--////////HEADER///////-->
+<!--////////////////////////////////////////////////////
+                     HEADER
+/////////////////////////////////////////////////////-->
 
             <!-- nav bar caché -->
-
-              <nav class="navbar navbar-light navbar-css bg-faded nav-sticky">
-
+              <nav class="navbar navbar-light navbar-css nav-sticky">
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -57,7 +56,7 @@
                   <div class="collapse" id="exCollapsingNavbar">
                     <ul class="nav">
                       <li class="nav-item">
-                        <a class="nav-link active" href="Page_accueil.html">Accueil</a>
+                        <a class="nav-link active" href="index.html">Acceuil</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="Vente.html">Gallerie</a>
@@ -66,24 +65,21 @@
                         <a class="nav-link" href="Location.html">Atelier</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="inscription.html">Inscription</a>
+                        <a class="nav-link" href="Contact.html">Inscription</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="Contact.html">Contact</a>
                       </li>
                     </ul>
-
                   </div>
 
                 </nav>
 
-        <!-- nav bar grande -->
-
-                <nav class="nav_grande nav-sticky">
-
+         <!-- nav bar grande -->
+               <nav class="nav_grande nav-sticky">
                   <ul class="nav nav-inline">
                     <li class="nav-item">
-                      <a class="nav-link active" href="Page_accueil.html">Accueil</a>
+                      <a class="nav-link active" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="Vente.html">Gallerie</a>
@@ -92,17 +88,16 @@
                       <a class="nav-link" href="Vente.html">Atelier</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="inscription.html">Inscription</a>
+                      <a class="nav-link" href="Location.html">Inscription</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a class="nav-link" href="Contact.html">Contact</a>
                     </li>
                   </ul>
                 </nav>
 
 
 <!-- Titre et fond alpha -->
-
 
         <header>
                 <div id="logos">
@@ -114,23 +109,78 @@
                        <a href=https://www.youtube.com/><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                        <a href=https://twitter.com/><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
                      </div>
+
                 </div>
 
         </header>
 
-<!--////////CORPS DE TEXTE///////-->
+<!--////////////////////////////////////////////////////
+                     CORPS DE TEXTE
+/////////////////////////////////////////////////////-->
+<div class=container>
+
+
+    <!--///////////////// JOURNAL//////////////////  -->
+
+
+    <section class="journal">
+      <article>
+          <h3 class="titre_section">JOURNAL</h3>
+          <div class="date_du_post">
+              <h5 class="date_gauche">18/Décembre</h5>
+              <h5 class="date_droite">2001</h5>
+          </div>
+      </article>
+      <div class="journal_corps">
+          <figure>
+            <img src="" alt="">
+          </figure>
+
+          <article>
+            <h4>Vacancy in Italie</h4>
+            <p>A gallery of image from my recent trip to Italy.<br>
+              </br> It was truly wonderful to wander the streets of Rome, eat ice cream and pizza, and catch some sun after the long winter.<br>
+              </br>Enjoy!
+            </p>
+          </article>
+      </div>
+
+    </section>
+
+
+
+    <!--///////////////// MINI-GALLERIE//////////////////-->
+
+
+    <section>
+
+        <figure>
+
+            <img src="" alt="">
+
+        </figure>
+
+    </section>
+
+
+</div>
 
 
 
 
 
-<!--////////FOOTER///////-->
+
+<!--////////////////////////////////////////////////////
+                      FOOTER
+/////////////////////////////////////////////////////-->
+
+
+
         <footer>
 
             <section class=articles_footer>
                 <article class="article article_footer_contact">
                     <h3>ADRESSE</h3>
-
                     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:100%;margin:auto;'><div id='gmap_canvas' style='height:400px;width:400px;'></div><div><small><a href="http://www.embedgooglemaps.com">Generate your Google map here, quick and easy!</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">Find all web directories here!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(50.67333347145965,3.191775115344191),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.67333347145965,3.191775115344191)});infowindow = new google.maps.InfoWindow({content:'<strong>Michael </strong><br>94 Rue Leon MARLOT, ROUBAIX, France<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
                     <aside>
                         94 Rue Léon MARLOT<br>
@@ -147,7 +197,6 @@
                 </article>
 
                 <article class="article article_footer_prendrecontact">
-
                     <h3>CONTACT</h3>
                     <div class="sociaux_bas">
                        <a href=https://www.skype.com/en/><i class="fa fa-skype fa-3x" aria-hidden="true"></i></a>
@@ -165,9 +214,6 @@
                  </aside>
 
           </footer>
-
-
-
 
 
 
