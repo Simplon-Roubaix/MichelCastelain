@@ -18,19 +18,19 @@ nav li a{
 
 
 
-.navbar-light {
+.navbar-css {
     display:block;
     background-color: #735749 ;
     width:100%;
     z-index: 100;
 }
 
-.navbar-light ul{
+.navbar-css ul{
     font-size: 2em;
     text-align: center;
 }
 
-.navbar-light ul a{
+.navbar-css ul a{
     margin:10px;
 }
 
@@ -47,10 +47,6 @@ nav li a{
 .nav_grande ul a{
     margin-left:5px;
     font-size: 1.0em;
-}
-
-.article{
-
 }
 
 .nav-sticky {
@@ -79,7 +75,7 @@ header{
     display:none;
     position:relative;
     float: right;
-    top:30px;
+    top:90px;
     right:40px;
 }
 
@@ -92,7 +88,7 @@ header{
                   CORPS_DE_TEXTE
 ***********************************************/
 .container{
-
+ padding:0 30px;
 }
 /*****************************************
                 PAGE ACCEUIL
@@ -201,7 +197,7 @@ aside {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-    .navbar-light{
+    .navbar-css{
         display:none;
     }
 
@@ -251,7 +247,7 @@ aside {
         float: right;
         width: 28%;
     }
-/*HEADER*/
+
     header{
         height:600px;
     }
@@ -263,7 +259,6 @@ aside {
 
     .nav_grande{
         text-align: right;
-        margin-left:20px;
         font-size: 1.3em;
 
     }
@@ -283,7 +278,7 @@ aside {
         width:50%;
     }
 
-/*FOOTER*/
+/*********FOOTER*********/
 
     .articles_footer{
         display:flex;
@@ -331,10 +326,6 @@ aside {
 
     /*NAVBAR*/
 
-    .nav_grande ul a{
-        margin-left:40px;
-        font-size: 1.3em;
-    }
 
 
 
