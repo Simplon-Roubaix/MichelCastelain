@@ -5,6 +5,8 @@ body{
 
 /**************NAVBAR*****************/
 
+
+
 nav {
     color: #f4f4f4;
 }
@@ -13,6 +15,7 @@ nav li a{
     color: #f4f4f4;
     font-family: 'Fredoka One', cursive;
 }
+
 
 
 .navbar-light {
@@ -50,6 +53,10 @@ nav li a{
 
 }
 
+.nav-sticky {
+    position: fixed;
+}
+
 
 /***************HEADER*******************/
 
@@ -85,7 +92,7 @@ header{
                   CORPS_DE_TEXTE
 ***********************************************/
 .container{
-    
+
 }
 /*****************************************
                 PAGE ACCEUIL
@@ -244,7 +251,7 @@ aside {
         float: right;
         width: 28%;
     }
-
+/*HEADER*/
     header{
         height:600px;
     }
@@ -261,6 +268,7 @@ aside {
 
     }
 
+/*journal*/
 
     .journal_corps{
         display: flex;
@@ -275,7 +283,7 @@ aside {
         width:50%;
     }
 
-
+/*FOOTER*/
 
     .articles_footer{
         display:flex;
@@ -322,8 +330,6 @@ aside {
     /***************HEADER****************/
 
     /*NAVBAR*/
-    .nav_grande{
-    }
 
     .nav_grande ul a{
         margin-left:40px;
