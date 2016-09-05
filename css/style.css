@@ -3,9 +3,6 @@
 
 
 
-
-/**************NAVBAR*****************/
-
 body{
     background-image: url(../img/P1050387.JPG);
     background: linear-gradient(to right,rgb(250, 230, 230),#e5e5e5);
@@ -195,6 +192,38 @@ hr{
 
 
 
+
+/*****************************************
+                PAGE GALLERIE
+******************************************/
+main{
+    margin: 50px auto 20px;
+    }
+
+.galleryphoto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.galleryphoto img{
+
+}
+
+.galleryphoto li{
+    list-style: none;
+}
+
+main h1{
+    color: #735749 ;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
 /**********************************************
                      FOOTER
 **********************************************/
@@ -285,6 +314,12 @@ aside {
         margin:100px 10px;
     }
 
+
+/*********PAGE GALLERIE*********/
+
+
+
+
 /*********FOOTER*********/
 
 
@@ -325,6 +360,7 @@ aside {
         font-size: 1.3em;
 
     }
+
 
 /*journal*/
 
@@ -469,32 +505,6 @@ aside {
 
 
 
-/*Karimcss400à500*/
-main{
-    background-color:#735749;
-    margin-top:-20px ;
-    margin-bottom: -15px
-    }
-.galleryphoto{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom:20px;
-}
-.galleryphoto img{
-
-}
-.galleryphoto li{
-    list-style: none;
-}
-main h1{
-    color: white ;
-    text-align: center;
-}
 
 
 
