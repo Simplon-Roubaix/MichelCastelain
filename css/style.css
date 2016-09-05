@@ -146,15 +146,23 @@ INSCRIPTION'S  page for michelcarton's website
 
 
 .journal {
-    margin:100px 20px;
+    margin:100px 0px;
 }
 
 .journal .titre_section{
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: bold;
     margin: 8px 0;
     padding:0 0 10px;
     border-bottom: 3px solid #735749;
 
+}
+
+.journal .photoProfile{
+  width:50px;
+  height:50px;
+  border-radius: 40px;
+  background-color: red;
 }
 
 .journal .date_du_post{
@@ -162,7 +170,7 @@ INSCRIPTION'S  page for michelcarton's website
     justify-content: space-between;
 }
 
-.journal figure {
+.journal .journal_corps figure {
     margin: 20px auto;
     width:450px;
     height:320px;
@@ -245,9 +253,7 @@ aside {
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
+/*********NAVBAR*********/
 
     .navbar-css{
         display:none;
@@ -258,24 +264,22 @@ aside {
 
     }
 
+/*********HEADER*********/
 
+    .journal {
+        margin:100px 10px;
+    }
 
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+/*********FOOTER*********/
+
 
 }
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
 
 
-/* ============
-    WIDE: Menu
-   ============ */
+/*********HEADER*********/
 
     .title {
         float: left;
@@ -285,10 +289,6 @@ aside {
         float: right;
         width: 38%;
     }
-
-/* ============
-    WIDE: Main
-   ============ */
 
     .main article {
         float: left;
