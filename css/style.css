@@ -457,7 +457,6 @@ aside {
 
 /*Karimcss400à500*/
 main{
-    background-color:#735749;
     margin-top:-20px ;
     margin-bottom: -15px
     }
@@ -465,21 +464,20 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom:20px;
+    margin-top: 100px;
 }
-.galleryphoto img{
 
-}
 .galleryphoto li{
     list-style: none;
 }
 main h1{
-    color: white ;
+    color:#735749 ;
     text-align: center;
+    border-style: solid;
+    border
 }
 
 
