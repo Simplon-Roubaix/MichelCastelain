@@ -121,18 +121,29 @@ header{
 }
 
 /*==========================================================================
-INSCRIPTION'S  page for michelcarton's website
+CONTACT  page for michelcarton's website
 ========================================================================== */
+.btn-primary{
+  background-color: #735749;
+
+}
+
+hr{
+  color:#735749;
+  width:100%;
+  height: 10px;
+}
 
 
 .legeng {
-    color: #36A0FF;
+    color:#735749;
     font-size: 27px;
     padding: 10px;
 }
 .bigicon {
+  color:  #735749;
     font-size: 35px;
-    color: #36A0FF;
+
 }
 .row {
 
