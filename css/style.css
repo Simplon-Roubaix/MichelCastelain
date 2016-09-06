@@ -150,6 +150,22 @@ hr{
   width: 100%;
   height:100%;
 }
+/*==========================================================================
+INSCRIPTION  page for michelcarton's website
+========================================================================== */
+h2{
+  text-decoration:underline;
+  font-weight: bolder;
+}
+.button-inscrit {
+background-color:#fff;
+  font-weight: bolder;
+  font-style: italic;
+}
+h5{
+  font-style: italic;
+  color:#9D1B04;
+}
 
 /*****************************************
                 PAGE ACCEUIL
