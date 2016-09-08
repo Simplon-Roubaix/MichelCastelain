@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 /**************NAVBAR*****************/
 
 body {
+=======
+
+
+
+
+
+body{
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
     background-image: url(../img/P1050387.JPG);
     background: linear-gradient(to right, rgb(250, 230, 230), #e5e5e5);
     color: #735749;
@@ -59,6 +68,7 @@ nav li a:hover {
     display: none;
     width: 100%;
     z-index: 100;
+    box-shadow: 10px 0px 40px 10px rgba(20, 20, 20, 0.5);
 }
 .nav_grande ul a {
     margin-left: 5px;
@@ -74,7 +84,13 @@ header {
     background-image: url(../img/P1050372.JPG);
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
     height: 540px;
+=======
+    height:540px;
+    box-shadow: inset 0px 10px 50px rgba(80, 57, 53, 0.5);
+    box-shadow: 0px 0px 10px 5px rgba(80, 57, 53, 0.2);
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
 }
 #logos {
     height: 300px;
@@ -162,14 +178,24 @@ h5 {
                 PAGE ACCEUIL
 ******************************************/
 .journal {
+<<<<<<< HEAD
     margin: 100px 20px;
 }
 .journal .titre_section {
     font-size: 40px;
+=======
+    margin:100px 0px;
+}
+
+.journal .titre_section{
+    font-size: 35px;
+    font-weight: bold;
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
     margin: 8px 0;
     padding: 0 0 10px;
     border-bottom: 3px solid #735749;
 }
+<<<<<<< HEAD
 .journal .date_du_post {
     display: flex;
     justify-content: space-between;
@@ -192,6 +218,68 @@ footer {
     bottom: 1.5em;
     width: 100%;
     color: #735749;
+=======
+
+.journal .photoProfile{
+  width:50px;
+  height:50px;
+  border-radius: 40px;
+  background-color: red;
+}
+
+.journal .date_du_post{
+    display:flex;
+    justify-content: space-between;
+}
+
+.journal .journal_corps figure {
+    margin: 20px auto;
+    width:450px;
+    height:320px;
+}
+
+
+
+
+/*****************************************
+                PAGE GALLERIE
+******************************************/
+
+main{
+    margin-top:40px ;
+    }
+.galleryphoto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:20px;
+    margin-top: 100px;
+}
+
+.galleryphoto li{
+    list-style: none;
+}
+main h1{
+    color:#735749 ;
+    text-align: center;
+    text-decoration: underline;
+}
+/**********************************************
+                     FOOTER
+**********************************************/
+
+
+
+footer{
+    background: linear-gradient(to bottom,rgba(210, 180, 180, 0.5), rgba(240, 190, 190, 0.5));
+    padding:20px;
+    bottom:1.5em;
+    width:100%;
+    color:#735749;
+    box-shadow: inset 0px 5px 30px rgba(90, 50, 50, 0.2);
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
 }
 .article_footer_contact {
     margin: 30px 5%;
@@ -240,9 +328,14 @@ aside {
    Media Queries
    ========================================================================== */
 @media only screen and (min-width: 480px) {
+<<<<<<< HEAD
     /* ====================
     INTERMEDIATE: Menu
    ==================== */
+=======
+
+/*********NAVBAR*********/
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
 
     .navbar-css {
         display: none;
@@ -250,17 +343,43 @@ aside {
     .nav_grande {
         display: block;
     }
+<<<<<<< HEAD
     /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
+=======
+
+/*********HEADER*********/
+
+    .journal {
+        margin:100px 10px;
+    }
+
+
+/*********PAGE GALLERIE*********/
+
+
+
+
+/*********FOOTER*********/
+
+
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
 }
 @media only screen and (min-width: 768px) {
+<<<<<<< HEAD
     /* ====================
     WIDE: CSS3 Effects
    ==================== */
     /* ============
     WIDE: Menu
    ============ */
+=======
+
+
+
+/*********HEADER*********/
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
 
     .title {
         float: left;
@@ -269,9 +388,12 @@ aside {
         float: right;
         width: 38%;
     }
+<<<<<<< HEAD
     /* ============
     WIDE: Main
    ============ */
+=======
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
 
     .main article {
         float: left;
@@ -290,7 +412,14 @@ aside {
     }
     /*journal*/
 
+<<<<<<< HEAD
     .journal_corps {
+=======
+
+/*journal*/
+
+    .journal_corps{
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
         display: flex;
     }
     .journal figure {
@@ -316,15 +445,34 @@ aside {
     .article_footer_apropos {
         width: 30%;
     }
+<<<<<<< HEAD
     .article_footer_prendrecontact {
         width: 100%;
         margin-top: -15px;
         margin-bottom: 10px;
     }
+=======
+
+    .article_footer_prendrecontact{
+        width:100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .article_footer_prendrecontact .sociaux_bas{
+        margin-top: 20px;
+    }
+
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
     footer h3 {
         padding: 10px 0;
         width: 100%;
     }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
 }
 @media only screen and (min-width: 1140px) {
     /* ===============
@@ -354,9 +502,144 @@ aside {
     .article_footer_apropos {
         width: 30%;
     }
+<<<<<<< HEAD
     .article_footer_prendrecontact {
         width: 30%;
         margin-top: -15px;
         margin-bottom: 10px;
+=======
+
+    .article_footer_prendrecontact{
+        width:30%;
+        margin-top: 29px;
+        margin-bottom: 0px;
+    }
+
+    .article_footer_prendrecontact .sociaux_bas{
+        margin-top: 35px;
+        margin-bottom: 0px;
+>>>>>>> acdd1518465d1cc9010d7ed246a71e6b4a7d18a2
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*finKarimcss*/
