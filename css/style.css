@@ -216,7 +216,7 @@ h5{
 main{
     margin-top:40px ;
     }
-.galleryphoto{
+#galleryphoto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -226,7 +226,7 @@ main{
     margin-top: 100px;
 }
 
-.galleryphoto li{
+#galleryphoto li{
     list-style: none;
 }
 main h1{
