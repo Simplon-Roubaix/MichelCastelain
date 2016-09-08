@@ -212,34 +212,28 @@ h5{
 /*****************************************
                 PAGE GALLERIE
 ******************************************/
-main{
-    margin: 50px auto 20px;
-    }
 
+main{
+    margin-top:40px ;
+    }
 .galleryphoto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width:100%;
-}
-
-.galleryphoto img{
-
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:20px;
+    margin-top: 100px;
 }
 
 .galleryphoto li{
     list-style: none;
 }
-
 main h1{
-    color: #735749 ;
-    font-size: 40px;
+    color:#735749 ;
     text-align: center;
-    margin-bottom: 60px;
+    text-decoration: underline;
 }
-
-
-
 /**********************************************
                      FOOTER
 **********************************************/
@@ -504,50 +498,6 @@ aside {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-/*Karimcss400à500*/
-main{
-    margin-top:-20px ;
-    margin-bottom: -15px
-    }
-.galleryphoto{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom:20px;
-    margin-top: 100px;
-}
-
-.galleryphoto li{
-    list-style: none;
-}
-main h1{
-    color:#735749 ;
-    text-align: center;
-    border-style: solid;
-    border
-}
-=======
-
->>>>>>> 79976c9b8b6da84a5c1d16a77789beac908413fd
 
 
 
