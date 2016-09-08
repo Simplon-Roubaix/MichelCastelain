@@ -3,9 +3,6 @@
 
 
 
-
-/**************NAVBAR*****************/
-
 body{
     background-image: url(../img/P1050387.JPG);
     background: linear-gradient(to right,rgb(250, 230, 230),#e5e5e5);
@@ -69,6 +66,7 @@ nav li a:hover{
     display:none;
     width:100%;
     z-index: 100;
+    box-shadow: 10px 0px 40px 10px rgba(20, 20, 20, 0.5);
 }
 
 .nav_grande ul a{
@@ -89,6 +87,8 @@ header{
     background-size:cover;
     background-position: center;
     height:540px;
+    box-shadow: inset 0px 10px 50px rgba(80, 57, 53, 0.5);
+    box-shadow: 0px 0px 10px 5px rgba(80, 57, 53, 0.2);
 }
 
 #logos {
@@ -157,15 +157,23 @@ hr{
 
 
 .journal {
-    margin:100px 20px;
+    margin:100px 0px;
 }
 
 .journal .titre_section{
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: bold;
     margin: 8px 0;
     padding:0 0 10px;
     border-bottom: 3px solid #735749;
 
+}
+
+.journal .photoProfile{
+  width:50px;
+  height:50px;
+  border-radius: 40px;
+  background-color: red;
 }
 
 .journal .date_du_post{
@@ -173,13 +181,45 @@ hr{
     justify-content: space-between;
 }
 
-.journal figure {
+.journal .journal_corps figure {
     margin: 20px auto;
     width:450px;
     height:320px;
     background-image: url(../img/P1050380.JPG);
     background-size: cover;
     background-position: center;
+}
+
+
+
+
+/*****************************************
+                PAGE GALLERIE
+******************************************/
+main{
+    margin: 50px auto 20px;
+    }
+
+.galleryphoto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.galleryphoto img{
+
+}
+
+.galleryphoto li{
+    list-style: none;
+}
+
+main h1{
+    color: #735749 ;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 
@@ -196,6 +236,7 @@ footer{
     bottom:1.5em;
     width:100%;
     color:#735749;
+    box-shadow: inset 0px 5px 30px rgba(90, 50, 50, 0.2);
 }
 
 .article_footer_contact{
@@ -256,9 +297,7 @@ aside {
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
+/*********NAVBAR*********/
 
     .navbar-css{
         display:none;
@@ -269,24 +308,28 @@ aside {
 
     }
 
+/*********HEADER*********/
+
+    .journal {
+        margin:100px 10px;
+    }
 
 
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+/*********PAGE GALLERIE*********/
+
+
+
+
+/*********FOOTER*********/
+
 
 }
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
 
 
-/* ============
-    WIDE: Menu
-   ============ */
+/*********HEADER*********/
 
     .title {
         float: left;
@@ -296,10 +339,6 @@ aside {
         float: right;
         width: 38%;
     }
-
-/* ============
-    WIDE: Main
-   ============ */
 
     .main article {
         float: left;
@@ -321,6 +360,7 @@ aside {
         font-size: 1.3em;
 
     }
+
 
 /*journal*/
 
@@ -359,14 +399,19 @@ aside {
 
     .article_footer_prendrecontact{
         width:100%;
-        margin-top: -15px;
+        margin-top: 0px;
         margin-bottom: 10px;
+    }
+
+    .article_footer_prendrecontact .sociaux_bas{
+        margin-top: 20px;
     }
 
     footer h3 {
         padding:10px 0;
         width:100%;
     }
+
 
 }
 
@@ -410,8 +455,13 @@ aside {
 
     .article_footer_prendrecontact{
         width:30%;
-        margin-top: -15px;
-        margin-bottom: 10px;
+        margin-top: 29px;
+        margin-bottom: 0px;
+    }
+
+    .article_footer_prendrecontact .sociaux_bas{
+        margin-top: 35px;
+        margin-bottom: 0px;
     }
 }
 
@@ -454,7 +504,7 @@ aside {
 
 
 
-
+<<<<<<< HEAD
 /*Karimcss400à500*/
 main{
     margin-top:-20px ;
@@ -479,6 +529,9 @@ main h1{
     border-style: solid;
     border
 }
+=======
+
+>>>>>>> 79976c9b8b6da84a5c1d16a77789beac908413fd
 
 
 
