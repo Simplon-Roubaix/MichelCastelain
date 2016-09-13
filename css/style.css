@@ -101,7 +101,7 @@ header {
 }
 #logos {
     /*Le fond spécials pourra être remis là*/
-    /*background-color: rgba(80, 50, 50, 0.5);*/
+    background-color: rgba(80, 50, 50, 0.5);
     height: 300px;
     width: 100%;
 }
@@ -289,8 +289,35 @@ footer{
 }
 .sociaux_bas i {
     color: #735749;
-    padding: 0 0 0 10px;
+    animation-name: sociauxItemMoveBack;
+    animation-duration: 0.3s;
 }
+
+@keyframes sociauxMoveBack {
+    from {
+        color: #4b87a0;
+    }
+    to {
+        color: #735749;
+    }
+}
+
+.sociaux_bas i:hover{
+    color: #4b87a0;
+    animation-name: sociauxItemMove;
+    animation-duration: 0.3s;
+}
+
+@keyframes sociauxItemMove {
+    from {
+        color: #735749;
+    }
+    to {
+        color: #4b87a0;
+    }
+}
+
+
 footer h3 {
     padding: 10px 0;
     margin: 0 0 20px;
@@ -305,6 +332,10 @@ aside {
     text-align: left;
 }
 
+.article_footer_contact aside {
+    margin: 10px 0 0 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -313,13 +344,6 @@ aside {
 
 /*********NAVBAR*********/
 
-
-    .navbar-css {
-        display: none;
-    }
-    .nav_grande {
-        display: block;
-    }
 
 
 /*********HEADER*********/
@@ -379,7 +403,13 @@ aside {
         display: block;
         position:absolute;
     }
+
+    .navbar-css {
+        display: none;
+    }
+
     .nav_grande {
+        display:block;
         text-align: right;
         font-size: 1.3em;
     }
