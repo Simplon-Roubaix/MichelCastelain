@@ -1,9 +1,20 @@
 
-/**************NAVBAR*****************/
 
 body {
     background: linear-gradient(to right, rgb(250, 230, 230), #e5e5e5);
     color: #735749;
+}
+
+h1 {
+    font-size: 60px;
+    color:#fff;
+    margin-bottom: 0px;
+}
+
+
+h2 {
+    font-size: 30px;
+    color:#fff;
 }
 
 /**************NAVBAR*****************/
@@ -13,7 +24,6 @@ nav {
 }
 nav li a {
     color: #f4f4f4;
-    font-family: 'Fredoka One', cursive;
     animation-name: navItemMoveBack;
     animation-duration: 0.5s;
 }
@@ -82,8 +92,13 @@ header {
 }
 #logos {
     height: 300px;
-    background-color: rgba(80, 57, 53, 0.6);
+    /*background-color: rgba(80, 57, 53, 0.6);*/
     width: 100%;
+}
+
+#titre_page{
+    padding-top: 50px;
+    text-align: center;
 }
 
 /*RAISEAU SOCIAUX*/
@@ -138,11 +153,7 @@ hr {
 INSCRIPTION  page for michelcarton's website
 ========================================================================== */
 
-h2 {
-    text-decoration: underline;
-    font-weight: bolder;
-    color: #9D1B04;
-}
+
 .button-inscrit {
     background-color: #fff;
     font-weight: bolder;
@@ -318,6 +329,18 @@ aside {
 }
 @media only screen and (min-width: 768px) {
 
+    #titre_page{
+        text-align: left;
+        margin-left: 13%;
+    }
+
+    h1{
+
+    }
+
+    h1{
+
+    }
 
 
 /*********HEADER*********/
@@ -342,6 +365,7 @@ aside {
     }
     .sociaux_haut {
         display: block;
+        position:absolute;
     }
     .nav_grande {
         text-align: right;
