@@ -16,6 +16,7 @@ h1 {
 
 
 h2 {
+    font-family: "Baloo Tamma" ,sans-serif;
     font-size: 30px;
     color:#f4f4f4;
 }
@@ -99,8 +100,9 @@ header {
 
 }
 #logos {
+    /*Le fond spécials pourra être remis là*/
+    /*background-color: rgba(80, 50, 50, 0.5);*/
     height: 300px;
-    background-color: rgba(80, 57, 53, 0.6);
     width: 100%;
 }
 
