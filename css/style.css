@@ -18,7 +18,6 @@ h1 {
 h2 {
     font-family: "Baloo Tamma" ,sans-serif;
     font-size: 30px;
-    color:#f4f4f4;
 }
 
 h3 {
@@ -110,7 +109,9 @@ header {
     padding-top: 50px;
     text-align: center;
 }
-
+header h2 {
+    color:#f4f4f4;
+}
 /*RAISEAU SOCIAUX*/
 
 .sociaux_haut {
@@ -140,20 +141,24 @@ CONTACT  page for michelcarton's website
 .btn-primary {
     background-color: #735749;
 }
+
 hr {
     color: #735749;
     width: 100%;
     height: 10px;
 }
+
 .legeng {
     color: #735749;
     font-size: 27px;
     padding: 10px;
 }
+
 .bigicon {
     color: #735749;
     font-size: 35px;
 }
+
 .row {
     width: 100%;
     height: 100%;
@@ -169,16 +174,18 @@ INSCRIPTION  page for michelcarton's website
     font-weight: bolder;
     font-style: italic;
 }
+
 h4{
     font-family: "Days One" ,sans-serif;
   font-weight: bolder;
     text-decoration: underline;
 }
-}
+
 h5 {
     font-family: "Days One" ,sans-serif;
     font-style: italic;
 }
+
 .atelier {
     background-color: white;
     background: linear-gradient(to right, #E8E5E5, white);
@@ -414,6 +421,13 @@ aside {
         font-size: 1.3em;
     }
     /*journal*/
+
+/*********CORPS DE TEXTE*********/
+
+
+#main {
+    margin:10%;
+}
 
 
 
