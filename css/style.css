@@ -251,6 +251,16 @@ CONTACT  page for michelcarton's website
 ========================================================================== */
 
 
+
+.article_1_contact{
+
+}
+
+.formulaire_contact{
+
+}
+
+
 /**********************************************
                      FOOTER
 **********************************************/
@@ -439,6 +449,8 @@ aside {
     margin:3em 10%;
 }
 
+/*inscription*/
+
 .flex_inscription{
     display:flex;
     flex-wrap: wrap;
@@ -448,6 +460,13 @@ aside {
 }
 
 .flex_inscription form{
+}
+
+/*contact*/
+
+.flex_contact{
+    display:flex;
+    flex-wrap: wrap;
 }
 
 
