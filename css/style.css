@@ -85,6 +85,7 @@ nav li a:hover {
 }
 .nav-sticky {
     position: fixed;
+    z-index: 50;
 }
 
 /***************HEADER*******************/
@@ -178,7 +179,7 @@ GALLERIE  page for michelcarton's website
 main{
     margin-top:40px ;
     }
-.galleryphoto{
+#galleryphoto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -197,6 +198,25 @@ main h1{
     text-decoration: underline;
 }
 
+#overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    z-index: 100
+    text-align:center;
+}
+
+#overlay img {
+ margin-top: 10%;
+}
+
+#overlay p {
+ color:white;
+}
 
 /*==========================================================================
 INSCRIPTION  page for michelcarton's website
