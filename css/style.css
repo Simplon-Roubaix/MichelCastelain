@@ -18,7 +18,6 @@ h1 {
 h2 {
     font-family: "Baloo Tamma" ,sans-serif;
     font-size: 30px;
-    color:#f4f4f4;
 }
 
 h3 {
@@ -86,6 +85,7 @@ nav li a:hover {
 }
 .nav-sticky {
     position: fixed;
+    z-index: 50;
 }
 
 /***************HEADER*******************/
@@ -94,14 +94,14 @@ header {
     background-image: url(../img/background/Background_Michel_1.JPG);
     background-size: cover;
     background-position: bottom;
-    height:540px;
+    height:440px;
     box-shadow: inset 0px 10px 50px rgba(80, 57, 53, 0.3);
     box-shadow: 0px 0px 10px 5px rgba(80, 57, 53, 0.2);
 
 }
 #logos {
     /*Le fond spécials pourra être remis là*/
-    /*background-color: rgba(80, 50, 50, 0.5);*/
+    background-color: rgba(80, 50, 50, 0.6);
     height: 300px;
     width: 100%;
 }
@@ -110,7 +110,9 @@ header {
     padding-top: 50px;
     text-align: center;
 }
-
+header h2 {
+    color:#f4f4f4;
+}
 /*RAISEAU SOCIAUX*/
 
 .sociaux_haut {
@@ -129,65 +131,14 @@ header {
                   CORPS_DE_TEXTE
 ***********************************************/
 
-.container {
-    padding: 0 30px;
+#container {
+    margin:3em;
 }
+
 
 /*==========================================================================
-CONTACT  page for michelcarton's website
+ACCEUIL  page for michelcarton's website
 ========================================================================== */
-
-.btn-primary {
-    background-color: #735749;
-}
-hr {
-    color: #735749;
-    width: 100%;
-    height: 10px;
-}
-.legeng {
-    color: #735749;
-    font-size: 27px;
-    padding: 10px;
-}
-.bigicon {
-    color: #735749;
-    font-size: 35px;
-}
-.row {
-    width: 100%;
-    height: 100%;
-}
-
-/*==========================================================================
-INSCRIPTION  page for michelcarton's website
-========================================================================== */
-
-
-.button-inscrit {
-    background-color: #fff;
-    font-weight: bolder;
-    font-style: italic;
-}
-h4{
-    font-family: "Days One" ,sans-serif;
-  font-weight: bolder;
-    text-decoration: underline;
-}
-}
-h5 {
-    font-family: "Days One" ,sans-serif;
-    font-style: italic;
-}
-.atelier {
-    background-color: white;
-    background: linear-gradient(to right, #E8E5E5, white);
-    border: 2px dotted #816352;
-}
-
-/*****************************************
-                PAGE ACCEUIL
-******************************************/
 .journal {
     margin:100px 0px;
 }
@@ -221,14 +172,14 @@ h5 {
 
 
 
-/*****************************************
-                PAGE GALLERIE
-******************************************/
+/*==========================================================================
+GALLERIE  page for michelcarton's website
+========================================================================== */
 
 main{
     margin-top:40px ;
     }
-.galleryphoto{
+#galleryphoto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -246,6 +197,90 @@ main h1{
     text-align: center;
     text-decoration: underline;
 }
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    z-index: 100
+    text-align:center;
+}
+
+#overlay img {
+ margin-top: 10%;
+}
+
+#overlay p {
+ color:white;
+}
+
+/*==========================================================================
+INSCRIPTION  page for michelcarton's website
+========================================================================== */
+
+
+form {
+    width:460px;
+    margin-bottom: 8em;
+}
+
+form .formulaire_inscription input  {
+    margin: 0 auto 10px;
+    width:450px;
+    height:40px;
+}
+
+.checkboxes{
+    margin-top:30px;
+    padding-top: 20px;
+}
+
+.checkboxes input{
+    margin: 10px;
+}
+
+.button-inscrit{
+    margin:auto;
+    padding:12px 20px;
+    font-size: 18px;
+    background: none;
+    border: 4px solid #735749;
+    border-radius: 7px;
+}
+
+.button-inscrit:hover{
+    font-size: 18px;
+    color:#f4f4f4;
+    background-color: #735749;
+    border: 4px solid #735749;
+}
+
+.atelier_inscription {
+    margin: 5em 0;
+    border: 2px solid #735749;
+    border-radius: 5px;
+    padding:10px 20px;
+}
+
+/*==========================================================================
+CONTACT  page for michelcarton's website
+========================================================================== */
+
+
+
+.article_1_contact{
+
+}
+
+.formulaire_contact{
+
+}
+
+
 /**********************************************
                      FOOTER
 **********************************************/
@@ -289,8 +324,35 @@ footer{
 }
 .sociaux_bas i {
     color: #735749;
-    padding: 0 0 0 10px;
+    animation-name: sociauxItemMoveBack;
+    animation-duration: 0.3s;
 }
+
+@keyframes sociauxMoveBack {
+    from {
+        color: #4b87a0;
+    }
+    to {
+        color: #735749;
+    }
+}
+
+.sociaux_bas i:hover{
+    color: #4b87a0;
+    animation-name: sociauxItemMove;
+    animation-duration: 0.3s;
+}
+
+@keyframes sociauxItemMove {
+    from {
+        color: #735749;
+    }
+    to {
+        color: #4b87a0;
+    }
+}
+
+
 footer h3 {
     padding: 10px 0;
     margin: 0 0 20px;
@@ -305,6 +367,10 @@ aside {
     text-align: left;
 }
 
+.article_footer_contact aside {
+    margin: 10px 0 0 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -314,19 +380,24 @@ aside {
 /*********NAVBAR*********/
 
 
-    .navbar-css {
-        display: none;
-    }
-    .nav_grande {
-        display: block;
-    }
-
 
 /*********HEADER*********/
+
+
+/*********CORPS DE TEXTE*********/
+
+#container {
+    margin:3em 4em;
+}
+
+
+/*********PAGE JOURNAL*********/
 
     .journal {
         margin:100px 10px;
     }
+
+
 
 
 /*********PAGE GALLERIE*********/
@@ -379,12 +450,44 @@ aside {
         display: block;
         position:absolute;
     }
+
+    .navbar-css {
+        display: none;
+    }
+
     .nav_grande {
+        display:block;
         text-align: right;
         font-size: 1.3em;
     }
     /*journal*/
 
+/*********CORPS DE TEXTE*********/
+
+
+#container {
+    margin:3em 10%;
+}
+
+/*inscription*/
+
+.flex_inscription{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.flex_inscription article{
+}
+
+.flex_inscription form{
+}
+
+/*contact*/
+
+.flex_contact{
+    display:flex;
+    flex-wrap: wrap;
+}
 
 
 /*journal*/
@@ -446,6 +549,17 @@ aside {
     }
     /***************HEADER****************/
     /*NAVBAR*/
+
+
+
+    /*********CORPS DE TEXTE*********/
+
+    #container {
+        margin:3em 15%;
+    }
+
+
+
     /***************FOOTER****************/
 
     .articles_footer {

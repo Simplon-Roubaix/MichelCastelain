@@ -15,13 +15,12 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <script src="https://use.fontawesome.com/d05e79cef4.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Days+One|Laila" rel="stylesheet">
 
-    <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Cantarell|Fredoka+One" rel="stylesheet">
+
+
 
 
 
@@ -57,13 +56,13 @@
                     <a class="nav-link active" href="Page_accueil.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallerie</a>
+                    <a class="nav-link" href="gallerie.html">Gallerie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="atelier.html">Atelier</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="insciption.html">Inscription</a>
+                    <a class="nav-link" href="inscription.html">Inscription</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -89,7 +88,7 @@
                 <a class="nav-link" href="atelier.html">Atelier</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="inscription.html">Inscription</a>
+                <a class="nav-link" href="Inscription.html">Inscription</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -104,95 +103,65 @@
     <header>
         <div id="logos">
 
-            <div class="sociaux_haut">
+            <article id="titre_page">
+                <h1>MICHEL <br>
+                    CASTELAIN</h1>
+                <h2>concepteur d'objets en carton</h2>
+            </article>
+
+            <!-- <div class="sociaux_haut">
                 <a href=https://www.skype.com/en/><i class="fa fa-skype fa-2x" aria-hidden="true"></i></a>
                 <a href=https://plus.google.com/collections/featured><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a>
                 <a href=https://www.facebook.com/><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
                 <a href=https://www.youtube.com/><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                 <a href=https://twitter.com/><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-            </div>
+            </div> -->
         </div>
 
     </header>
 
     <!--////////CORPS DE TEXTE///////-->
 
+<section id="container">
+
+    <h3>MICHEL CASTELAIN - ATELIER CARTON</h3>
+
+    <section class="flex_contact">
+
+        <article class="article_1_contact">
+            <h4>RENSEIGNEMENTS & INFORMATIONS</h4>
+            <p>
+                Vous souhaitez avoir quelques informations complémentaires sur les ateliers que vous sont proposés... N'hésitez pas à nous contacter.
+                Nous vous répondrons dans les plus brefs délais et nous pourrons convenir ensemble d'une date pour venir découvrir les ateliers.
+                Vous pouvez aussi prendre directement rendez-vous auprés du secrétariat de l'ADEP:
+            </p>
+            <p>
+                <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                <span>+33 3 20 02 79 68<span>
+            <p>
+
+        </article>
+
+
 
     <!--////////contact form ///////-->
-    <h1>MICHEL CASTELAIN - ATELIER CARTON</h1>
-    <br>
-    <p>
-        <h2>RENSEIGNEMENTS & INFORMATIONS</h2>
-        <br> Vous souhaitez avoir quelques informations complémentaires sur les ateliers que vous sont proposés... N'hésitez pas à nous contacter.
-        <br> Nous vous répondrons dans les plus brefs délais et nous pourrons convenir ensemble d'une date pour venir découvrir les ateliers.
-        <br> Vous pouvez aussi prendre directement rendez-vous auprés du secrétariat de l'ADEP:
+        <form class="formulaire_contact" action="contact.html" method="post">
+            <i class="fa fa-user bigicon"></i><br>
+            <input type="text" name="lastname" value="NOM"><br>
+            <i class="fa fa-user bigicon"></i><br>
+            <input type="text" name="firstname" value="PRENOM"><br>
+            <i class="fa fa-envelope-o bigicon"></i><br>
+            <input type="text" name="firstname" value="EMAIL"><br>
+            <i class="fa fa-phone-square bigicon"></i><br>
+            <input type="text" name="firstname" value="TELEPHONE"><br>
+            <i class="fa fa-pencil-square-o bigicon"></i><br>
+            <textarea name="" id="" cols="30" rows="10" name="message" placeholder="Veuillez nous laisser votre message, nous vous répondrons dans les plus brefs délais."></textarea><br>
+            <button type="submit" class="button-formulaire">Je m'inscris</button>
+        </form>
+        <!--////////end contact form///////-->
+    </section>
 
-
-        <h3><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+33 3 20 02 79 68 <h3></p>
-<hr/><br>
-
-
-
-    <div class="container">
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="well well-sm">
-                    <form class="form-horizontal" method="post">
-                        <fieldset>
-                            <legend class="text-center header">Contact us</legend>
-
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-12">
-                                    <input id="fname" name="name" type="text" placeholder="NOM" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-12">
-                                    <input id="lname" name="name" type="text" placeholder="PRENOM" class="form-control">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                <div class="col-md-12">
-                                    <input id="email" name="email" type="text" placeholder="EMAIL" class="form-control">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                <div class="col-md-12">
-                                    <input id="phone" name="phone" type="text" placeholder="TELEPHONE" class="form-control">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                <div class="col-md-12">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Veuillez nous laisser votre message, nous vous répondrons dans les plus brefs délais." rows="7"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <hr/>
-    <!--////////end contact form///////-->
-
-
-
+</section>
 
 
 

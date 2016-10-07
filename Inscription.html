@@ -15,14 +15,13 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <script src="https://use.fontawesome.com/d05e79cef4.js"></script>
 
 
-    <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Cantarell|Fredoka+One" rel="stylesheet">
+<!-- Font -->
 
+
+     <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Days+One|Laila" rel="stylesheet">
 
 
 
@@ -57,10 +56,10 @@
                     <a class="nav-link active" href="Page_accueil.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallerie</a>
+                    <a class="nav-link" href="gallerie.html">Gallerie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Location.html">Atelier</a>
+                    <a class="nav-link" href="atelier.html">Atelier</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="inscription.html">Inscription</a>
@@ -83,11 +82,7 @@
                 <a class="nav-link active" href="Page_accueil.html">Accueil</a>
             </li>
             <li class="nav-item">
-<<<<<<< HEAD
-                <a class="nav-link" href="gallery.html">Gallerie</a>
-=======
                 <a class="nav-link" href="gallerie.html">Gallerie</a>
->>>>>>> 93d8f91ec477d51797f7e8d74c6d4dc7f9d6a222
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="atelier.html">Atelier</a>
@@ -108,119 +103,105 @@
     <header>
         <div id="logos">
 
-            <div class="sociaux_haut">
+            <article id="titre_page">
+                <h1>MICHEL <br>
+                    CASTELAIN</h1>
+                <h2>concepteur d'objets en carton</h2>
+            </article>
+
+            <!-- <div class="sociaux_haut">
                 <a href=https://www.skype.com/en/><i class="fa fa-skype fa-2x" aria-hidden="true"></i></a>
                 <a href=https://plus.google.com/collections/featured><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a>
                 <a href=https://www.facebook.com/><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
                 <a href=https://www.youtube.com/><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                 <a href=https://twitter.com/><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-            </div>
+            </div> -->
         </div>
 
     </header>
 
+
     <!--////////CORPS DE TEXTE///////-->
 
     <!--////////   description for inscrition on ligne  ///////-->
+<section id="container">
+        <h3><strong>INSCRIPTION AUX ATELIERS CARTONNAGE.</strong></h3>
 
-    <h1><strong>INSCRIPTION AUX ATELIERS CARTONNAGE.</strong></h1>
-    <h2>Les Ateliers de loisirs créatifs.</h2>
-    <br>
-    <p> Les ateliers ont lieu tous les matins DU LUNDI AU VENDREDI de 9h00 à 12h00 dans les locaux de l'ADEP de ROUBAIX.
-        <br> Pour participer à ses matinées créatives, il vous suffit de vous inscrire en ligne <i class="fa fa-calendar" aria-hidden="true"></i> .
-        <br> Le matériel est fourni ainsi que la bonne humeur!
-        <br> Michel Castelain vous accompagne et vous conseille tout au long de votre projet de cartonnage.
-        <br>L'initiation au façonnage du carton s'effectue en trois étapes:le découpage, l'assemblage et la conception finale.
-        <br>Bien évidemment, vous pouvez venir visiter les ateliers!
-    </p>
-    <!--//////// buttons links to socials medias ///////-->
+        <section class="flex_inscription">
 
-    <h2>
-      <i class="fa fa-share fa-1x" aria-hidden="true"></i>   Je m'inscris en ligne:
-  </h2>
-    <br>
-    <br>
 
-    <!--   REGISTRE FORM-->
-    <form action="index.html" method="post">
-        <div class="row limite">
-            <fieldset>
-                <div class="col-sm-6 col-md-3">
-                    <h5> ! Nombre de personnes par groupe limité.</h5>
-                </div>
-                <p>(*)renseignements obligatoires.</p>
-                <div class="col-sm-6 col-dm-3">
-                    <label for="name">Nom:</label>
-                    <input type="text" id="name" name="Nom du client">(*)
-                    <br>
-                    <label for="last_name">Prénom:</label>
-                    <input type="text" id="last_name" name="Prénom du client">(*)
-                    <br>
-                    <label for="adress">Adresse:</label>
-                    <input type="text" id="adress" name="adresse du client">
-                    <br>
-                    <label for="adress">Code postal:</label>
-                    <input type="text" id="adress" name="code postale">
-                    <br>
-                    <label for="adress">Ville:</label>
-                    <input type="text" id="adress" name="ville du client">
-                    <br>
-                    <label for="tel">Téléphone:</label>
-                    <input type="text" id="tel" name="Numero_de_telephne_du_client">(*)
-                    <br>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="email du client">(*)
-                    <br>
-                    <br>
+            <!--//////// buttons links to socials medias ///////-->
+
+
+
+            <!--   REGISTRE FORM-->
+            <form action="inscription.html" method="post">
+                <h4>
+                  <i class="fa fa-share fa-1x" aria-hidden="true"></i>Je m'inscris en ligne:
+                </h4>
+                    <fieldset class="formulaire_inscription">
+                        <h5> Nombre de personnes par groupe limitées!</h5>
+                        <p>(*)renseignements obligatoires.</p>
+                            <label for="name">Nom:</label>(*)
+                            <input type="text" id="name" name="Nom du client">
+                            <label for="last_name">Prénom:</label>(*)
+                            <input type="text" id="last_name" name="Prénom du client">
+                            <label for="adress">Adresse:</label>(*)
+                            <input type="text" id="adress" name="adresse du client">
+                            <label for="adress">Code postal:</label>
+                            <input type="text" id="adress" name="code postale">
+                            <label for="adress">Ville:</label>
+                            <input type="text" id="adress" name="ville du client">
+                            <label for="tel">Téléphone:</label>(*)
+                            <input type="text" id="tel" name="Numero_de_telephne_du_client">
+                            <label for="mail">Email:</label>(*)
+                            <input type="email" id="mail" name="email du client">
+                    </fieldset>
+                    <fieldset class="checkboxes">
+                            <h5> LES ATELIERS </h5>
+                            <input type="radio" id="tourcoing" value="tourcoing" name="ville du client">
+                            <label for="tourcoing">Lundi</label>
+                            <input type="radio" id="roubaix" value="roubaix" name="ville du client">
+                            <label for="roubaix">Mardi</label>
+                            <input type="radio" id="wattrelos" value="wattrelos" name="ville du client">
+                            <label for="wattrelos">Mercredi</label>
+                            <input type="radio" id="croix" value="croix" name="ville du client">
+                            <label for="croix">Jeudi</label>
+                            <input type="radio" id="wasquehal" value="wasquehal" name="ville du client">
+                            <label for="wasquehal">Vendredi</label>
+                    </fieldset>
                     <br>
                     <button type="submit" class="button-inscrit">Je m'inscris</button>
-                </div>
+            </form>
+
+
+            <article class="description_inscription">
+                <h4>Les Ateliers de loisirs créatifs.</h4>
                 <br>
-                <br>
-                <br>
-
-                <div class="col-sm-6 col-md-3">
-                    <h5></h5>
-                    <label> LES ATELIERS </label>
+                <p> Les ateliers ont lieu tous les matins DU LUNDI AU VENDREDI de 9h00 à 12h00 dans les locaux de l'ADEP de ROUBAIX.
+                    Pour participer à ses matinées créatives, il vous suffit de vous <span>inscrire en ligne </span>.
+                    Le matériel est fourni ainsi que la bonne humeur!
                     <br>
-
-                    <input type="radio" id="tourcoing" value="tourcoing" name="ville du client">
-                    <label for="tourcoing">Lundi</label>
-                    <br>
-                    <input type="radio" id="roubaix" value="roubaix" name="ville du client">
-                    <label for="roubaix">Mardi</label>
-                    <br>
-                    <input type="radio" id="wattrelos" value="wattrelos" name="ville du client">
-                    <label for="wattrelos">Mercredi</label>
-                    <br>
-                    <input type="radio" id="croix" value="croix" name="ville du client">
-                    <label for="croix">Jeudi</label>
-                    <br>
-                    <input type="radio" id="wasquehal" value="wasquehal" name="ville du client">
-                    <label for="wasquehal">Vendredi</label>
-                    <br>
+                    Michel Castelain vous accompagne et vous conseille tout au long de votre projet de cartonnage.
+                    L'initiation au façonnage du carton s'effectue en trois étapes:le découpage, l'assemblage et la conception finale.
+                    Bien évidemment, vous pouvez venir visiter les ateliers!
+                </p>
+            </article>
 
 
-                </div>
+            <article class="atelier_inscription">
+                <h4>  Le carton,ça cartonne!!!</h4>
+                <p>Plus qu’une tendance, l’écologie est un mode de vie qui vise à préserver et à protéger notre environnement. Ce courant de pensée est aujourd’hui une réelle façon de se démarquer de la concurrence, en affichant des valeurs « eco-friendly ».
+                   Actuellement, les produits "fashions et écolos" sont les objets de décorations et le mobilier en carton.</p>
+            </article>
 
-            </fieldset>
-        </div>
+    </section>
+        <!-- END REGISTRE FORM  -->
+        <!--////////    end description for inscrition on ligne  ///////-->
 
-    </form>
-    <br>
-    <article class="atelier">
-        <h4>  Le carton,ça cartonne!!!</h4>
-      <p>Plus qu’une tendance, l’écologie est un mode de vie qui vise à préserver et à protéger notre environnement. Ce courant de pensée est aujourd’hui une réelle façon de se démarquer de la concurrence, en affichant des valeurs « eco-friendly ».
-      Actuellement, les produits "fashions et écolos" sont les objets de décorations et le mobilier en carton.</p>
-    </article>
-    <br>
-    <br>
+</section>
 
 
-
-
-    <!-- END REGISTRE FORM  -->
-    <!--////////    end description for inscrition on ligne  ///////-->
     <!--////////FOOTER///////-->
     <footer>
 
@@ -272,16 +253,16 @@
 
             <article class="article article_footer_apropos">
                 <h3>À PROPOS</h3>
-                <p>Michel Castelain détourne le matériaux vers des objets de décoration et de mobilier dans une démarche geste éco-citoyenne: le recyclage! En effet, il ne faut pas négliger que le carton ondulé est un produit recyclable et recyclé, vous
-                    participerez indirectement à une action écologique.... Venez découvrir les multiples facettes de matériaux dans les ateliers de loisirs créatifs dans les locaux de l'ADEP ROUBAIX.</p>
+                <p>
+                    Michel Castelain détourne le matériaux vers des objets de décoration et de mobilier dans une démarche geste éco-citoyenne: le recyclage! En effet, il ne faut pas négliger que le carton ondulé est un produit recyclable et recyclé, vous participerez indirectement
+                    à une action écologique.... Venez découvrir les multiples facettes de matériaux dans les ateliers de loisirs créatifs dans les locaux de l'ADEP ROUBAIX.</p>
             </article>
 
             <article class="article article_footer_prendrecontact">
 
                 <h3>CONTACT</h3>
-                <p>Vous pouvez suivre notre actualité via les réseaux sociaux et participer à l'évolution de nos projets carton.
-                    <br> Suivez-nous!
-                </p>
+                <p>Vous pouvez suivre notre actualité via les réseaux sociaux et participer à l'évolution de nos projets carton.<br>
+                Suivez-nous!</p>
                 <div class="sociaux_bas">
                     <a href=https://www.skype.com/en/><i class="fa fa-skype fa-3x" aria-hidden="true"></i></a>
                     <a href=https://www.facebook.com/><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
@@ -300,7 +281,7 @@
 
 
 
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjwh5ACpzsbGfHzt8668F6LRCbOwsH5Ps"type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
