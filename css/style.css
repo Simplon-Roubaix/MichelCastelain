@@ -4,7 +4,8 @@ body {
     background: linear-gradient(to right, rgb(250, 230, 230), #e5e5e5);
     color: #735749;
     font-family: 'Laila' ,sans-serif;
-    font-size: 14px;
+    font-size: 18px;
+    position:relative;
 }
 
 h1 {
@@ -22,6 +23,24 @@ h2 {
 
 h3 {
     font-family: "Baloo Tamma" ,sans-serif;
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 22px;
+}
+
+
+ul {
+    list-style: none;
 }
 /**************NAVBAR*****************/
 
@@ -77,8 +96,9 @@ nav li a:hover {
     display: none;
     width: 100%;
     z-index: 100;
-    box-shadow: 10px 0px 40px 10px rgba(20, 20, 20, 0.2);
+    box-shadow: 0px 0px 10px 5px rgba(30, 20, 20, 0.8);
 }
+
 .nav_grande ul a {
     margin-left: 5px;
     font-size: 1.0em;
@@ -176,46 +196,54 @@ ACCEUIL  page for michelcarton's website
 GALLERIE  page for michelcarton's website
 ========================================================================== */
 
-main{
+#main{
     margin-top:40px ;
     }
-#galleryphoto{
+
+#main h3{
+    text-align: center;
+
+}
+
+#galleryPhoto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
+    width:100%;
     padding-bottom:20px;
     margin-top: 100px;
+    justify-content: center;
 }
 
-.galleryphoto li{
+#galleryPhoto li{
     list-style: none;
+    width:200px;
+    margin: 8px 10px;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.3);
 }
-main h1{
-    color:#735749 ;
-    text-align: center;
-    text-decoration: underline;
-}
+
 
 #overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    height:100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
     width:100%;
-    position:absolute;
+    height:100%;
+    position:fixed;
     top:0;
     left:0;
     display:none;
     z-index: 100
-    text-align:center;
+
 }
 
 #overlay img {
- margin-top: 10%;
+ margin-top: 8%;
 }
 
-#overlay p {
- color:white;
+#overlay h5 {
+    margin-top: 20px;
+    font-size: 40px;
+    color:white;
 }
 
 /*==========================================================================
@@ -270,15 +298,36 @@ form .formulaire_inscription input  {
 CONTACT  page for michelcarton's website
 ========================================================================== */
 
+section .flex_contact{
+    display:flex;
+    flex-wrap: wrap;
+}
 
 
 .article_1_contact{
+    width:100%;
+    margin: 50px 0% 0;
+}
 
+.article_1_contact h4{
+    margin-top: 40px;
+}
+.article_1_contact p{
+    margin-top: 40px;
 }
 
 .formulaire_contact{
-
+    width:100%;
+    margin: 50px 0% 0;
 }
+
+.formulaire_contact input{
+    height:40px;
+    width:100%;
+}
+
+
+
 
 
 /**********************************************
@@ -371,9 +420,19 @@ aside {
     margin: 10px 0 0 0;
 }
 
+
+
+
+
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+
+
+
 @media only screen and (min-width: 480px) {
 
 
@@ -396,11 +455,6 @@ aside {
     .journal {
         margin:100px 10px;
     }
-
-
-
-
-/*********PAGE GALLERIE*********/
 
 
 
@@ -482,12 +536,6 @@ aside {
 .flex_inscription form{
 }
 
-/*contact*/
-
-.flex_contact{
-    display:flex;
-    flex-wrap: wrap;
-}
 
 
 /*journal*/
@@ -537,6 +585,17 @@ aside {
 
 
 }
+
+
+/***********************
+      PAGE CONTACT
+***********************/
+
+
+
+
+
+
 @media only screen and (min-width: 1140px) {
     /* ===============
     Maximal Width
