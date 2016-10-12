@@ -23,11 +23,12 @@ h2 {
 
 h3 {
     font-family: "Baloo Tamma" ,sans-serif;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 h4 {
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 h5 {
@@ -80,6 +81,8 @@ nav li a:hover {
     background: linear-gradient(to right, #735749, #8f6f5b);
     width: 100%;
     z-index: 100;
+    box-shadow: 0px 0px 10px 5px rgba(30, 20, 20, 0.5);
+    position: fixed;
 }
 .navbar-css ul {
     font-size: 2em;
@@ -92,11 +95,12 @@ nav li a:hover {
     text-align: center;
     padding: 15px 20px;
     background: linear-gradient(to right, #735749, #8f6f5b);
-    height: 60px;
+    height: 90px;
     display: none;
     width: 100%;
     z-index: 100;
-    box-shadow: 0px 0px 10px 5px rgba(30, 20, 20, 0.8);
+    box-shadow: 0px 0px 10px 5px rgba(30, 20, 20, 0.5);
+    position: fixed;
 }
 
 .nav_grande ul a {
@@ -127,7 +131,7 @@ header {
 }
 
 #titre_page{
-    padding-top: 50px;
+    padding-top: 70px;
     text-align: center;
 }
 header h2 {
@@ -197,11 +201,12 @@ GALLERIE  page for michelcarton's website
 ========================================================================== */
 
 #main{
-    margin-top:40px ;
+    margin-top:40px;
     }
 
 #main h3{
     text-align: center;
+    margin-bottom: 50px;
 
 }
 
@@ -249,7 +254,10 @@ GALLERIE  page for michelcarton's website
 /*==========================================================================
 INSCRIPTION  page for michelcarton's website
 ========================================================================== */
-
+.flex_inscription{
+    width:90%;
+    margin: auto;
+}
 
 form {
     width:460px;
@@ -271,8 +279,8 @@ form .formulaire_inscription input  {
     margin: 10px;
 }
 
-.button-inscrit{
-    margin:auto;
+button{
+    margin:20px auto;
     padding:12px 20px;
     font-size: 18px;
     background: none;
@@ -280,7 +288,7 @@ form .formulaire_inscription input  {
     border-radius: 7px;
 }
 
-.button-inscrit:hover{
+button:hover{
     font-size: 18px;
     color:#f4f4f4;
     background-color: #735749;
@@ -298,15 +306,17 @@ form .formulaire_inscription input  {
 CONTACT  page for michelcarton's website
 ========================================================================== */
 
-section .flex_contact{
+.flex_contact{
     display:flex;
     flex-wrap: wrap;
+    width:450px;
+    margin: 0 auto 40px;
 }
 
 
 .article_1_contact{
     width:100%;
-    margin: 50px 0% 0;
+    margin: 0px 0% 0;
 }
 
 .article_1_contact h4{
@@ -514,6 +524,10 @@ aside {
         text-align: right;
         font-size: 1.3em;
     }
+
+    .nav_grande ul{
+        margin-top: 15px;
+    }
     /*journal*/
 
 /*********CORPS DE TEXTE*********/
@@ -521,19 +535,6 @@ aside {
 
 #container {
     margin:3em 10%;
-}
-
-/*inscription*/
-
-.flex_inscription{
-    display:flex;
-    flex-wrap: wrap;
-}
-
-.flex_inscription article{
-}
-
-.flex_inscription form{
 }
 
 
@@ -587,11 +588,25 @@ aside {
 }
 
 
-/***********************
-      PAGE CONTACT
-***********************/
+/***************************
+      PAGE INSCRIPTION
+***************************/
 
 
+.flex_inscription{
+    width:750px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulaire_inscription_container{
+    margin: 0 2.5%;
+    width:45%;
+}
+.description_inscription & .atelier_inscription{
+    width:40%;
+}
 
 
 
@@ -607,7 +622,6 @@ aside {
         margin: 0 auto;
     }
     /***************HEADER****************/
-    /*NAVBAR*/
 
 
 
