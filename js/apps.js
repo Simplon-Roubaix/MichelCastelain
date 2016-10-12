@@ -3,7 +3,8 @@
 
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
-var $caption = $("<p></p>");
+var $caption = $("<h5></h5>");
+
 
 //An image to overlay
 $overlay.append($image);
